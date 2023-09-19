@@ -1,8 +1,7 @@
 #Créé par Enzo Sanchez Valero
 #Créé le 31/08/23
-#TP1 (fonction split)
+#TP1 (count_word)
 
-print('Ce programme est destiné à compter le nombre de mots d`une phrase de votre choix.')  #Présentation
-nbmots=(len(input('Écrivez votre phrase ici:').split()))    #Définition variable
-
-print('Votre phrase contient',nbmots,'mots.')
+def count_word(phrase): #Définir la fonction
+    resultat=(len(phrase.split(' ')))   #Compter le nombre de mots de la fonction
+    return resultat #Retourner le résultat
